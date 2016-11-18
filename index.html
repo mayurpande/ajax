@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="css/main.css">
   <title>AJAX with JavaScript</title>
   <script>
-	var xhr = new XMLHTTPRequest();
+	var xhr = new XMLHttpRequest();
 	xhr.onreadystatechange = function(){
 		if(xhr.readyState === 4){
 			document.getElementById('ajax').innerHTML = xhr.responseText;
